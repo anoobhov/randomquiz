@@ -172,7 +172,8 @@ problem.forEach((obj,index)=>{
         input.name=`q${index+1}`
         input.value = option
         label.appendChild(input)
-        div_element.appendChild(document.createTextNode(option))
+        label.appendChild(document.createTextNode(option))
+        div_element.appendChild(label)
         div_element.appendChild(document.createElement('br'));
     })
     form.appendChild(div_element)
