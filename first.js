@@ -185,3 +185,21 @@ button.className='submit-btn'
 button.textContent='Submit'
 form.appendChild(button)
 
+//Now checking the answers
+form.addEventListener('submit',(event)=>{
+    event.preventDefault()
+
+    const form_data=new FormData(form)
+
+    let result = 0
+    for(let[key,value] in form_data.entries())
+    {
+        if(value===correct_answer[key])
+            result++
+    }
+
+    const res_div = document.getElementById('out')
+    res_div.textContent=`score is ${result} out of 5`
+
+    
+})
