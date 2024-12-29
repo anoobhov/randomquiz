@@ -165,7 +165,7 @@ problem.forEach((obj,index)=>{
 
 
     //Now creating 4 options:
-    obj.options.forEach((option,index)=>{
+    obj.options.forEach((option)=>{
         const label = document.createElement('label')
         const input = document.createElement('input')
         input.type="radio"
@@ -183,5 +183,5 @@ const button = document.createElement('button')
 button.type='submit'
 button.className='submit-btn'
 button.textContent='Submit'
-form.appendChild('button')
+form.appendChild(button)
 
