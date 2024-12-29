@@ -134,5 +134,53 @@ const questionBank = [
       options: ["Artificial Intelligence", "Automated Information", "Advanced Integration", "Artificial Integration"],
       answer: "Artificial Intelligence",
     },
-  ];
-  
+];
+ 
+function randomselector()
+{
+    const data  = new Set()
+    while(data.size!=5)
+    {
+        const index = Math.floor(Math.random()*27)
+        data.add(questionBank[index])
+    }
+
+    return [...data]
+}
+
+const form = document.getElementById('quizForm')
+const problem = randomselector()
+const correct_answer = {};
+
+problem.forEach((obj,index)=>{
+    const div_element = document.createElement('div')
+    div_element.className='question'
+
+    const paragraph = document.createElement('p')
+    paragraph.textContent=`Q${index+1}. ${obj.question}`
+    correct_answer[`q${index+1}`] = obj.answer
+
+    div_element.appendChild(paragraph)
+    
+
+
+    //Now creating 4 options:
+    obj.options.forEach((option,index)=>{
+        const label = document.createElement('label')
+        const input = document.createElement('input')
+        input.type="radio"
+        input.name=`q${index+1}`
+        input.value = option
+        label.appendChild(input)
+        div_element.appendChild(document.createTextNode(option))
+        div_element.appendChild(document.createElement('br'));
+    })
+    form.appendChild(div_element)
+})
+
+const button = document.createElement('button')
+button.type='submit'
+button.className='submit-btn'
+button.textContent='Submit'
+form.appendChild('button')
+
