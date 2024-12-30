@@ -206,7 +206,7 @@ function randomselector()
 const form = document.getElementById('quizForm')
 const problem = randomselector()
 const correct_answer = {};
-
+const uttarElements = [];
 problem.forEach((obj,index)=>{
     const div_element = document.createElement('div')
     div_element.className='question'
@@ -231,6 +231,16 @@ problem.forEach((obj,index)=>{
         div_element.appendChild(label)
         div_element.appendChild(document.createElement('br'));
     })
+
+    let uttar = document.createElement('div')
+    uttar.textContent = `correct answer: ${obj.answer}`
+    uttar.style.color='orange'
+    uttar.style.visibility='hidden'
+    div_element.appendChild(uttar)
+    uttarElements.push(uttar)
+    //div_element.appendChild(document.createElement('div').className(`a${index+1}`))
+    //let ans = document.getElementsByClassName(`a${index+1}`)
+    //ans.textContent = correct_answer[`q${index+1}`]
     form.appendChild(div_element)
 })
 
@@ -247,12 +257,16 @@ form.addEventListener('submit',(event)=>{
     const form_data=new FormData(form)
 
     let result = 0
+    
     for(let[key,value] of form_data.entries())
     {
       if(value===correct_answer[key])
         result++
     }
+    uttarElements.forEach((uttar) => {
+      uttar.style.visibility = 'visible';
+  });
 
     const res_div = document.getElementById('out')
-    res_div.textContent=`score is ${result} out of 5`
+    res_div.textContent=`score is ${result} out of 5`    
 })
