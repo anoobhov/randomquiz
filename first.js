@@ -1,5 +1,235 @@
 const questionBank = [
   {
+    question: "What is the name of the device that gives Ben 10 his powers?",
+    options: ["Omnitrix", "Ultimatrix", "Hexatrix", "Chrono Trigger"],
+    answer: "Omnitrix",
+  },
+  {
+    question: "Which alien transformation is Ben’s first in the original series?",
+    options: ["Heatblast", "Four Arms", "Diamondhead", "XLR8"],
+    answer: "Heatblast",
+  },
+  {
+    question: "Who is the archenemy of Ben 10?",
+    options: ["Vilgax", "Kevin Levin", "Hex", "Dr. Animo"],
+    answer: "Vilgax",
+  },
+  {
+    question: "What is the name of Ben's cousin and teammate?",
+    options: ["Gwen", "Julie", "Kai", "Lucy"],
+    answer: "Gwen",
+  },
+  {
+    question: "Which alien form allows Ben to run at super speeds?",
+    options: ["XLR8", "Fasttrack", "Grey Matter", "Stinkfly"],
+    answer: "XLR8",
+  },
+  {
+    question: "In Avengers, who wields the Mjolnir?",
+    options: ["Thor", "Iron Man", "Hulk", "Loki"],
+    answer: "Thor",
+  },
+  {
+    question: "What is the name of Tony Stark’s AI assistant?",
+    options: ["Jarvis", "Friday", "Karen", "Ultron"],
+    answer: "Jarvis",
+  },
+  {
+    question: "Who is the first Avenger to wield the Infinity Gauntlet?",
+    options: ["Hulk", "Iron Man", "Thor", "Captain Marvel"],
+    answer: "Hulk",
+  },
+  {
+    question: "What is Black Panther's real name?",
+    options: ["T'Challa", "Shuri", "M'Baku", "Okoye"],
+    answer: "T'Challa",
+  },
+  {
+    question: "What is the full name of the SHIELD organization in the Avengers?",
+    options: [
+      "Strategic Homeland Intervention, Enforcement and Logistics Division",
+      "Strategic Hazard Intervention, Espionage and Logistics Directorate",
+      "Strategic Headquarters for Intervention, Espionage and Law Division",
+      "Special Homeland Intervention, Espionage and Logistics Division",
+    ],
+    answer: "Strategic Homeland Intervention, Enforcement and Logistics Division",
+  },
+  {
+    question: "Which alien race invaded Earth in the first Avengers movie?",
+    options: ["Chitauri", "Skrulls", "Kree", "Xandarians"],
+    answer: "Chitauri",
+  },
+  {
+    question: "What is the name of Ben 10's grandfather?",
+    options: ["Max Tennyson", "Phil Tennyson", "Carl Tennyson", "Ken Tennyson"],
+    answer: "Max Tennyson",
+  },
+  {
+    question: "Which alien form in Ben 10 is made of crystal and can reflect lasers?",
+    options: ["Diamondhead", "Chromastone", "Upgrade", "Echo Echo"],
+    answer: "Diamondhead",
+  },
+  {
+    question: "What is the name of the metal alloy in Captain America's shield?",
+    options: ["Vibranium", "Adamantium", "Uru", "Carbonadium"],
+    answer: "Vibranium",
+  },
+  {
+    question: "Which Avenger has a brother named Loki?",
+    options: ["Thor", "Iron Man", "Hawkeye", "Hulk"],
+    answer: "Thor",
+  },
+  {
+    question: "Which Ben 10 alien is known for its fire abilities?",
+    options: ["Heatblast", "Wildmutt", "Swampfire", "Big Chill"],
+    answer: "Heatblast",
+  },
+  {
+    question: "Who said the line 'I am Iron Man' in the Avengers franchise?",
+    options: ["Tony Stark", "Steve Rogers", "Bruce Banner", "Thor"],
+    answer: "Tony Stark",
+  },
+  {
+    question: "What is the name of Thanos' home planet?",
+    options: ["Titan", "Xandar", "Knowhere", "Sakaar"],
+    answer: "Titan",
+  },
+  {
+    question: "In Ben 10: Alien Force, who helps Ben unlock the Omnitrix?",
+    options: ["Gwen and Kevin", "Grandpa Max", "Julie", "Professor Paradox"],
+    answer: "Gwen and Kevin",
+  },
+  {
+    question: "Which Avenger can control lightning?",
+    options: ["Thor", "Hulk", "Captain America", "Black Widow"],
+    answer: "Thor",
+  },
+  {
+    question: "Which alien form in Ben 10 is capable of splitting into multiple clones?",
+    options: ["Echo Echo", "Ditto", "Upgrade", "Cannonbolt"],
+    answer: "Echo Echo",
+  },
+  {
+    question: "Which country does Lee Chong Wei represent in international badminton?",
+    options: ["Malaysia", "China", "Indonesia", "Japan"],
+    answer: "Malaysia",
+  },
+  {
+    question: "Lin Dan is famously known by what nickname?",
+    options: ["Super Dan", "The Dragon", "Iron Lin", "Golden Feather"],
+    answer: "Super Dan",
+  },
+  {
+    question: "Which player won the All England Open in 2021?",
+    options: ["Lee Zii Jia", "Kento Momota", "Viktor Axelsen", "Anders Antonsen"],
+    answer: "Lee Zii Jia",
+  },
+  {
+    question: "What is Kento Momota's playing style known for?",
+    options: [
+      "Defensive and counter-attacking",
+      "Aggressive and power shots",
+      "Net play and trick shots",
+      "Unpredictable smashes",
+    ],
+    answer: "Defensive and counter-attacking",
+  },
+  {
+    question: "How many Olympic gold medals does Lin Dan have?",
+    options: ["2", "1", "3", "None"],
+    answer: "2",
+  },
+  {
+    question: "Lee Chong Wei retired after competing in how many Olympic Games?",
+    options: ["4", "3", "5", "2"],
+    answer: "4",
+  },
+  {
+    question: "Which major event did Kento Momota win in 2019 before his car accident?",
+    options: ["World Championships", "All England Open", "Olympics", "Thomas Cup"],
+    answer: "World Championships",
+  },
+  {
+    question: "Which country does Lee Zii Jia represent?",
+    options: ["Malaysia", "China", "Japan", "Korea"],
+    answer: "Malaysia",
+  },
+  {
+    question: "Who is considered Lin Dan's greatest rival in badminton history?",
+    options: ["Lee Chong Wei", "Kento Momota", "Chen Long", "Viktor Axelsen"],
+    answer: "Lee Chong Wei",
+  },
+  {
+    question: "What year did Lee Chong Wei win his first All England Open title?",
+    options: ["2010", "2011", "2009", "2008"],
+    answer: "2010",
+  },
+  {
+    question: "Kento Momota is known for being the first men's singles player to win how many titles in a calendar year?",
+    options: ["11", "10", "9", "8"],
+    answer: "11",
+  },
+  {
+    question: "Which tournament victory established Lee Zii Jia as a rising star in badminton?",
+    options: [
+      "All England Open 2021",
+      "Malaysia Open 2020",
+      "Thomas Cup 2019",
+      "Singapore Open 2022",
+    ],
+    answer: "All England Open 2021",
+  },
+  {
+    question: "What unique accomplishment is Lin Dan known for achieving in badminton history?",
+    options: [
+      "Winning the Super Grand Slam",
+      "Consecutive World Championships titles",
+      "Winning 5 Olympic medals",
+      "Being undefeated in 5 years",
+    ],
+    answer: "Winning the Super Grand Slam",
+  },
+  {
+    question: "Which famous badminton player released an autobiography titled 'Dare to be a Champion'?",
+    options: ["Lee Chong Wei", "Lin Dan", "Kento Momota", "Lee Zii Jia"],
+    answer: "Lee Chong Wei",
+  },
+  {
+    question: "Which country does Kento Momota represent?",
+    options: ["Japan", "Malaysia", "China", "Korea"],
+    answer: "Japan",
+  },
+  {
+    question: "Which player is known for defeating Lin Dan in the 2016 All England Open final?",
+    options: ["Lee Chong Wei", "Chen Long", "Kento Momota", "Viktor Axelsen"],
+    answer: "Lee Chong Wei",
+  },
+  {
+    question: "What injury caused Kento Momota to miss the 2020 Olympics?",
+    options: ["Car accident injury", "Knee injury", "Shoulder injury", "Wrist injury"],
+    answer: "Car accident injury",
+  },
+  {
+    question: "Which event did Lee Zii Jia win his first major BWF title?",
+    options: ["All England Open", "Sudirman Cup", "Thomas Cup", "World Championships"],
+    answer: "All England Open",
+  },
+  {
+    question: "Lin Dan represented which country in badminton?",
+    options: ["China", "Japan", "Korea", "Malaysia"],
+    answer: "China",
+  },
+  {
+    question: "How many times did Lee Chong Wei win the Malaysia Open?",
+    options: ["12", "10", "11", "8"],
+    answer: "12",
+  },
+  {
+    question: "What is the name of the Hulk's alter ego?",
+    options: ["Bruce Banner", "David Banner", "Ross Banner", "Bruce Ross"],
+    answer: "Bruce Banner",
+  },
+  {
     question: "Who developed the C programming language?",
     options: ["Dennis Ritchie", "James Gosling", "Bjarne Stroustrup", "Ken Thompson"],
     answer: "Dennis Ritchie",
@@ -193,14 +423,33 @@ const questionBank = [
  
 function randomselector()
 {
-    const data  = new Set()
-    while(data.size!=5)
-    {
-        const index = Math.floor(Math.random()*(questionBank.length))
-        data.add(questionBank[index])
-    }
+  //method-1 (time complexity=>O(n))
+    // const data  = new Set()
+    // while(data.size!=5)
+    // {
+    //     const index = Math.floor(Math.random()*(questionBank.length))
+    //     data.add(questionBank[index])
+    // }
 
-    return [...data]
+    // return [...data]
+
+    //method -2 (time complexity=>O(nlogn))
+    // questionBank.sort(()=>Math.random()-0.5)
+    // return questionBank.slice(0,5)
+
+    //method-3 (time complexity=>O(no. of ques to display))
+    const arr=[]
+    let length = questionBank.length
+    for(let i=0;i<5;i++)
+    {
+      let index = Math.floor(Math.random()*length)
+      arr.push(questionBank[index])
+
+      //swapping
+      [questionBank[index],questionBank[length-1]] =[questionBank[length-1],questionBank[index]]
+      length--
+    }
+    return arr
 }
 
 const form = document.getElementById('quizForm')
@@ -238,9 +487,6 @@ problem.forEach((obj,index)=>{
     uttar.style.visibility='hidden'
     div_element.appendChild(uttar)
     uttarElements.push(uttar)
-    //div_element.appendChild(document.createElement('div').className(`a${index+1}`))
-    //let ans = document.getElementsByClassName(`a${index+1}`)
-    //ans.textContent = correct_answer[`q${index+1}`]
     form.appendChild(div_element)
 })
 
@@ -270,3 +516,25 @@ form.addEventListener('submit',(event)=>{
     const res_div = document.getElementById('out')
     res_div.textContent=`score is ${result} out of 5`    
 })
+
+
+// switching between dark mode and light mode
+const modes = document.getElementById('modes');
+modes.addEventListener('change', (event) => {
+  const mode = event.target.value;
+
+  // Toggle the 'dark-mode' class on the body element
+    if(mode=='Dark')
+    {
+      document.body.style.backgroundColor='black'
+      document.body.style.color='white'
+      const container = document.getElementsByClassName('container')
+      container[0].style.backgroundColor='#383838'
+    }
+    else{
+      document.body.style.backgroundColor='white'
+      document.body.style.color='black'
+      const container = document.getElementsByClassName('container')
+      container[0].style.backgroundColor='#e2dfdf'
+    }
+  })
