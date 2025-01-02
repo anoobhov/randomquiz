@@ -530,11 +530,13 @@ modes.addEventListener('change', (event) => {
       document.body.style.color='white'
       const container = document.getElementsByClassName('container')
       container[0].style.backgroundColor='#383838'
+      document.getElementById('modes').style.color='white'
     }
     else{
       document.body.style.backgroundColor='white'
       document.body.style.color='black'
       const container = document.getElementsByClassName('container')
       container[0].style.backgroundColor='#e2dfdf'
+      document.getElementById('modes').style.color='black'
     }
   })
