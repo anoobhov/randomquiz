@@ -531,6 +531,9 @@ modes.addEventListener('change', (event) => {
       const container = document.getElementsByClassName('container')
       container[0].style.backgroundColor='#383838'
       document.getElementById('modes').style.color='white'
+      const dark_font=document.getElementsByTagName('option')
+      dark_font[0].style.backgroundColor="grey"
+      dark_font[1].style.backgroundColor="grey"
     }
     else{
       document.body.style.backgroundColor='white'
@@ -538,5 +541,17 @@ modes.addEventListener('change', (event) => {
       const container = document.getElementsByClassName('container')
       container[0].style.backgroundColor='#e2dfdf'
       document.getElementById('modes').style.color='black'
+      const dark_font=document.getElementsByTagName('option')
+      dark_font[0].style.backgroundColor="white"
+      dark_font[1].style.backgroundColor="white"
     }
   })
+
+//adding start button
+
+const start = document.getElementById('start')
+start.addEventListener('click',()=>{
+  start.style.visibility='hidden'
+  const contain = document.getElementsByClassName('container')
+  contain[0].style.visibility='visible'
+})
