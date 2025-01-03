@@ -338,7 +338,7 @@ const questionBank = [
     question: "Which keyword is used to define an asynchronous function in JavaScript?",
     options: ["async", "await", "setTimeout", "callback"],
     answer: "async",
-  }
+  },
   {
     question: "Who is considered Lin Dan's greatest rival in badminton history?",
     options: ["Lee Chong Wei", "Kento Momota", "Chen Long", "Viktor Axelsen"],
