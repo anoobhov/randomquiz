@@ -69,6 +69,136 @@ const questionBank = [
     options: ["Diamondhead", "Chromastone", "Upgrade", "Echo Echo"],
     answer: "Diamondhead",
   },
+    {
+      question: "What is the use of the `isNaN()` function in JavaScript?",
+      options: [
+        "Checks if a value is not a number",
+        "Converts a value to a number",
+        "Returns the type of a value",
+        "Checks if a value is null"
+      ],
+      answer: "Checks if a value is not a number",
+    },
+    {
+      question: "Which symbol is used for comments in JavaScript?",
+      options: ["//", "/* */", "#", "Both // and /* */"],
+      answer: "Both // and /* */",
+    },
+    {
+      question: "Which method is used to remove the last element from an array?",
+      options: ["pop()", "push()", "shift()", "splice()"],
+      answer: "pop()",
+    },
+    {
+      question: "What will `console.log(typeof null)` output?",
+      options: ["null", "undefined", "object", "string"],
+      answer: "object",
+    },
+    {
+      question: "How can you convert a string to an integer in JavaScript?",
+      options: ["parseInt()", "Number()", "parseFloat()", "All of the above"],
+      answer: "parseInt()",
+    },
+    {
+      question: "What will `console.log(0.1 + 0.2 === 0.3)` output?",
+      options: ["true", "false", "undefined", "Error"],
+      answer: "false",
+    },
+    {
+      question: "Which of the following is not a reserved keyword in JavaScript?",
+      options: ["class", "throw", "undefined", "function"],
+      answer: "undefined",
+    },
+    {
+      question: "What is the purpose of the `bind()` method in JavaScript?",
+      options: [
+        "Creates a new function with a specific `this` value",
+        "Calls a function immediately",
+        "Executes a function repeatedly",
+        "Attaches an event listener"
+      ],
+      answer: "Creates a new function with a specific `this` value",
+    },
+    {
+      question: "What will `console.log([1, 2] + [3, 4])` output?",
+      options: ["[1,2,3,4]", "'1,23,4'", "Error", "NaN"],
+      answer: "'1,23,4'",
+    },
+    {
+      question: "Which of the following is a falsy value in JavaScript?",
+      options: ["0", "'0'", "[]", "{}"],
+      answer: "0",
+    },
+    {
+      question: "Which method can be used to iterate over an array?",
+      options: ["forEach()", "map()", "filter()", "All of the above"],
+      answer: "All of the above",
+    },
+    {
+      question: "What does the `setTimeout()` function do?",
+      options: [
+        "Executes code after a specified delay",
+        "Runs code continuously",
+        "Stops the execution of code",
+        "None of the above"
+      ],
+      answer: "Executes code after a specified delay",
+    },
+    {
+      question: "How do you check if a variable is an array?",
+      options: [
+        "typeof variable === 'array'",
+        "variable instanceof Array",
+        "Array.isArray(variable)",
+        "Both 2 and 3"
+      ],
+      answer: "Both 2 and 3",
+    },
+    {
+      question: "What is the scope of a variable declared with `let`?",
+      options: ["Global", "Block", "Function", "Local"],
+      answer: "Block",
+    },
+    {
+      question: "What will `console.log([] == [])` return?",
+      options: ["true", "false", "undefined", "Error"],
+      answer: "false",
+    },
+    {
+      question: "What is the result of `console.log('5' - 3)`?",
+      options: ["53", "2", "NaN", "Error"],
+      answer: "2",
+    },
+    {
+      question: "Which of these is used to create an object in JavaScript?",
+      options: ["{}", "new Object()", "Object.create()", "All of the above"],
+      answer: "All of the above",
+    },
+    {
+      question: "What does `use strict` do in JavaScript?",
+      options: [
+        "Enforces stricter parsing and error handling",
+        "Optimizes code",
+        "Runs code faster",
+        "Adds type checking"
+      ],
+      answer: "Enforces stricter parsing and error handling",
+    },
+    {
+      question: "Which keyword is used to create a constant in JavaScript?",
+      options: ["var", "let", "const", "static"],
+      answer: "const",
+    },
+    {
+      question: "What does the `this` keyword refer to in JavaScript?",
+      options: [
+        "The global object",
+        "The current object",
+        "Depends on the context",
+        "None of the above"
+      ],
+      answer: "Depends on the context",
+    },
   {
     question: "What is the name of the metal alloy in Captain America's shield?",
     options: ["Vibranium", "Adamantium", "Uru", "Carbonadium"],
@@ -154,6 +284,61 @@ const questionBank = [
     options: ["Malaysia", "China", "Japan", "Korea"],
     answer: "Malaysia",
   },
+  {
+    question: "What does '===' operator in JavaScript check?",
+    options: [
+      "Value only",
+      "Type only",
+      "Value and type",
+      "None of the above"
+    ],
+    answer: "Value and type",
+  },
+  {
+    question: "Which of the following is used to declare a variable in JavaScript?",
+    options: ["let", "var", "const", "All of the above"],
+    answer: "All of the above",
+  },
+  {
+    question: "What is the default value of an uninitialized variable in JavaScript?",
+    options: ["null", "undefined", "0", "NaN"],
+    answer: "undefined",
+  },
+  {
+    question: "Which of the following is a way to create a function in JavaScript?",
+    options: [
+      "function myFunction() {}",
+      "const myFunction = function() {}",
+      "() => {}",
+      "All of the above"
+    ],
+    answer: "All of the above",
+  },
+  {
+    question: "Which of the following methods is used to access an HTML element in JavaScript?",
+    options: [
+      "getElementById()",
+      "querySelector()",
+      "getElementsByClassName()",
+      "All of the above"
+    ],
+    answer: "All of the above",
+  },
+  {
+    question: "What will `typeof NaN` return?",
+    options: ["number", "NaN", "undefined", "object"],
+    answer: "number",
+  },
+  {
+    question: "What is the output of '2' + 2 in JavaScript?",
+    options: ["4", "'22'", "NaN", "Error"],
+    answer: "'22'",
+  },
+  {
+    question: "Which keyword is used to define an asynchronous function in JavaScript?",
+    options: ["async", "await", "setTimeout", "callback"],
+    answer: "async",
+  }
   {
     question: "Who is considered Lin Dan's greatest rival in badminton history?",
     options: ["Lee Chong Wei", "Kento Momota", "Chen Long", "Viktor Axelsen"],
@@ -420,6 +605,24 @@ const questionBank = [
 }
 ];
 
+//adding timer
+function time(){
+let time=30
+let minutes,seconds
+const timer = document.getElementById('timer')
+setInterval(()=>{
+  time--
+  minutes = Math.floor(time/60)
+  seconds = time%60
+  timer.textContent=`Time left: ${minutes}:${seconds.toString().padStart(2, '0')}`
+
+  if (time <= 0) {
+    clearInterval(this); // Stop the timer
+    timer.textContent = "Time's up!";
+    handleFormSubmit()
+  }
+},1000)
+}
  
 function randomselector()
 {
@@ -497,24 +700,31 @@ button.textContent='Submit'
 form.appendChild(button)
 
 //Now checking the answers
-form.addEventListener('submit',(event)=>{
-    event.preventDefault()
 
-    const form_data=new FormData(form)
+//time is up
+function handleFormSubmit() {
+  const form_data = new FormData(form);
 
-    let result = 0
-    
-    for(let[key,value] of form_data.entries())
-    {
-      if(value===correct_answer[key])
-        result++
+  let result = 0;
+
+  for (let [key, value] of form_data.entries()) {
+    if (value === correct_answer[key]) {
+      result++;
     }
-    uttarElements.forEach((uttar) => {
-      uttar.style.visibility = 'visible';
+  }
+
+  uttarElements.forEach((uttar) => {
+    uttar.style.visibility = 'visible';
   });
 
-    const res_div = document.getElementById('out')
-    res_div.textContent=`score is ${result} out of 5`    
+  const res_div = document.getElementById('out');
+  res_div.textContent = `Score is ${result} out of 5`;
+}
+
+//manual submission
+form.addEventListener('submit',(event)=>{
+    event.preventDefault()
+    handleFormSubmit()    
 })
 
 
@@ -554,24 +764,9 @@ start.addEventListener('click',()=>{
   start.style.visibility='hidden'
   const contain = document.getElementsByClassName('container')
   contain[0].style.visibility='visible'
+  time()
 })
 
 
-//adding timer
-let time=60*5
-let minutes=5
-let seconds=0
-const timer = document.getElementById('timer')
-setInterval(()=>{
-  time--
-  minutes = Math.floor(time/60)
-  seconds = time%60
-  timer.textContent=`Time left: ${minutes}:${seconds.toString().padStart(2, '0')}`
-
-  if (time <= 0) {
-    clearInterval(this); // Stop the timer
-    timer.textContent = "Time's up!";
-  }
-},1000)
 
 
