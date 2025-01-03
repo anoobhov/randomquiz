@@ -32,10 +32,8 @@ This project is a web-based quiz application that generates 5 random questions f
 2. Answer the 5 random questions displayed.
 3. Click the **Submit** button to complete the quiz.
 4. View your score and the correct answers.
-
+5. Added a timer to make the quiz more engaging.
 ## Future Enhancements
-- Add a timer to make the quiz more engaging.
-- Categorize questions by topics (e.g., Math, Science, History).
-- Fetch questions dynamically from an external API or database.
+
 - Enable user authentication to track scores over time.
 - Implement a leaderboard to encourage competition.
