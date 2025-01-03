@@ -555,3 +555,23 @@ start.addEventListener('click',()=>{
   const contain = document.getElementsByClassName('container')
   contain[0].style.visibility='visible'
 })
+
+
+//adding timer
+let time=60*5
+let minutes=5
+let seconds=0
+const timer = document.getElementById('timer')
+setInterval(()=>{
+  time--
+  minutes = Math.floor(time/60)
+  seconds = time%60
+  timer.textContent=`Time left: ${minutes}:${seconds.toString().padStart(2, '0')}`
+
+  if (time <= 0) {
+    clearInterval(this); // Stop the timer
+    timer.textContent = "Time's up!";
+  }
+},1000)
+
+
